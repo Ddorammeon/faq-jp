@@ -185,8 +185,8 @@ if ($_POST) {
           </div>
           <div class="dropdown">
             <div class="language--block">
-              <img src="./assets/img/flag.png" alt="" class="selectedImg" />
-              <p class="select">Tiếng Việt</p>
+              <img src="./assets/img/jp-flag.svg" alt="" class="selectedImg" />
+              <p class="select">Tiếng Nhật</p>
               <svg
                 width="16"
                 height="16"
@@ -204,7 +204,10 @@ if ($_POST) {
             </div>
 
             <div class="dropdown--list">
-              <a href="" class="dropdown--item dropdown--item__active">
+              <a
+                href="https://ddorammeon.github.io/faq-vn/"
+                class="dropdown--item dropdown--item__active"
+              >
                 <img src="./assets/img/flag.png" alt="" class="language__img" />
                 <p class="language">Tiếng Việt</p>
               </a>
@@ -217,7 +220,7 @@ if ($_POST) {
                   alt=""
                   class="language__img"
                 />
-                <p class="language">Japanese</p>
+                <p class="language">Tiếng Nhật</p>
               </a>
             </div>
           </div>
@@ -232,32 +235,32 @@ if ($_POST) {
         </div>
 
         <div class="main-content">
-          <h1 class="main-heading">Câu hỏi thường gặp</h1>
+          <h1 class="main-heading">よくある質問</h1>
           <div class="question">
             <div class="ques-sidebar hide-on-mobile">
-              <h2 class="ques-sidebar__heading">Nhóm câu hỏi</h2>
+              <h2 class="ques-sidebar__heading">質疑応答</h2>
               <ul class="ques-list">
                 <li class="ques-item">
                   <a
                     href="#conditional"
                     class="ques-item__active"
                     onclick="changeColor(this)"
-                    >1. Tuyển sinh</a
-                  >
+                    >1. 入試情報
+                  </a>
                 </li>
                 <li class="ques-item">
                   <a href="#information" onclick="changeColor(this)"
-                    >2. Bằng cấp - Chương trình đào tạo</a
+                    >2. 学位 - 教育プログラム</a
                   >
                 </li>
                 <li class="ques-item">
                   <a href="#training" onclick="changeColor(this)"
-                    >3. Đặc điểm - Lợi thế chương trình</a
+                    >3. プログラムの特徴 - 優位</a
                   >
                 </li>
                 <li class="ques-item">
                   <a href="#quality" onclick="changeColor(this)"
-                    >4. Cơ hội việc làm</a
+                    >4. 就職・キャリア</a
                   >
                 </li>
                 <!-- <li class="ques-item">
@@ -273,7 +276,7 @@ if ($_POST) {
                 <div class="main-ques__content" id="conditional">
                   <div class="ques__heading--block">
                     <h2 class="main-ques__heading main-ques__heading--active">
-                      1. Tuyển sinh
+                      1. 入試情報
                     </h2>
                   </div>
                   <div class="faq--block faq--block--active">
@@ -281,10 +284,7 @@ if ($_POST) {
                       <div class="accordion accordion-clicked">
                         <div class="faq__heading">
                           <h3>1.1</h3>
-                          <h3>
-                            Chương trình xét tuyển theo phương thức tuyển sinh
-                            nào?
-                          </h3>
+                          <h3>プログラムはどのような選抜方法がありますか?</h3>
                         </div>
 
                         <svg
@@ -303,11 +303,10 @@ if ($_POST) {
                       </div>
                       <div class="pannel pannel-open">
                         <p>
-                          Các thí sinh cần tốt nghiệp THPT hoặc tương đương,
-                          tham dự và trúng tuyển trong kỳ tuyển sinh đại học hệ
-                          chính quy với tổ hợp xét tuyển: Toán, Lý, Hóa (A00 -
-                          khối A); hoặc Toán, Lý, Anh (A01 - khối A1) hoặc các
-                          phương án xét tuyển riêng của Học viện.
+                          一般選抜では受験する方が高校又は同等の高校を卒業し、数学、
+                          物理学、化学 (A系- A00 ) 或いは数学、物理学 、英語
+                          (A1系- A01)の組み合わせで一般大学入学試験に参加し、
+                          合格必要があります。又は当大学の特別選考で合格すること。
                         </p>
                       </div>
                     </div>
@@ -316,7 +315,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>1.2</h3>
-                          <h3>Chỉ tiêu tuyển sinh 2024</h3>
+                          <h3>2024年入学者数</h3>
                         </div>
                         <svg
                           class="faq__icon"
@@ -333,10 +332,7 @@ if ($_POST) {
                         </svg>
                       </div>
                       <div class="pannel">
-                        <p>
-                          Chỉ tiêu tuyển sinh chương trình năm 2024 là 100 chỉ
-                          tiêu.
-                        </p>
+                        <p>当プログラムの2024 年の入学者数は100 名です。</p>
                       </div>
                     </div>
 
@@ -344,7 +340,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>1.3</h3>
-                          <h3>Chương trình tuyển sinh những khối nào?</h3>
+                          <h3>どんな系で選抜されますか？</h3>
                         </div>
                         <svg
                           class="faq__icon"
@@ -362,8 +358,8 @@ if ($_POST) {
                       </div>
                       <div class="pannel">
                         <p>
-                          Chương trình xét tuyển khối A00 (Toán, Lý, Hóa) hoặc
-                          A01 (Toán, Lý, Anh).
+                          数学、物理学、化学 (A系- A00 )
+                          或いは数学、物理学、英語 (A1系- A01)の組み合わせ。
                         </p>
                       </div>
                     </div>
@@ -485,16 +481,14 @@ if ($_POST) {
 
                 <div class="main-ques__content" id="information">
                   <div class="ques__heading--block">
-                    <h2 class="main-ques__heading">
-                      2. Bằng cấp - Chương trình đào tạo
-                    </h2>
+                    <h2 class="main-ques__heading">2. 学位 - 教育プログラム</h2>
                   </div>
                   <div class="faq--block">
                     <div class="faq">
                       <div class="accordion accordion-clicked">
                         <div class="faq__heading">
                           <h3>2.1</h3>
-                          <h3>Thời gian đào tạo của chương trình</h3>
+                          <h3>当プログラムの教育時間</h3>
                         </div>
 
                         <svg
@@ -512,10 +506,7 @@ if ($_POST) {
                         </svg>
                       </div>
                       <div class="pannel pannel-open">
-                        <p>
-                          Thời gian đào tạo của chương trình Kỹ sư CNTT Việt
-                          Nhật là 4,5 năm.
-                        </p>
+                        <p>越日情報技術プログラムの教育時間は4.5年。</p>
                       </div>
                     </div>
 
@@ -523,9 +514,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>2.2</h3>
-                          <h3>
-                            Sinh viên sẽ được đào tạo tiếng Nhật ở mức nào?
-                          </h3>
+                          <h3>学生はどのレベルまで日本語を教育されますか。</h3>
                         </div>
                         <svg
                           class="faq__icon"
@@ -542,10 +531,7 @@ if ($_POST) {
                         </svg>
                       </div>
                       <div class="pannel">
-                        <p>
-                          Sau khi tốt nghiệp, SV sẽ đạt trình độ tiếng Nhật N3
-                          JLPT.
-                        </p>
+                        <p>卒業まで日本語能力試験N3相当レベルに到達します。</p>
                       </div>
                     </div>
 
@@ -553,7 +539,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>2.3</h3>
-                          <h3>Sinh viên tốt nghiệp sẽ nhận bằng gì?</h3>
+                          <h3>卒業生はどのような学位を取得できますか?</h3>
                         </div>
                         <svg
                           class="faq__icon"
@@ -571,8 +557,8 @@ if ($_POST) {
                       </div>
                       <div class="pannel">
                         <p>
-                          Sinh viên tốt nghiệp nhận bằng Kỹ sư CNTT Việt Nhật do
-                          PTIT cấp.
+                          卒業生は、PTIT 大学が発行された日越 IT
+                          エンジニアの学位を取得できます。
                         </p>
                       </div>
                     </div>
@@ -581,7 +567,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>2.4</h3>
-                          <h3>Sinh viên sẽ học tại Việt Nam hay Nhật Bản?</h3>
+                          <h3>学生はベトナム又は日本で学習しますか?</h3>
                         </div>
                         <svg
                           class="faq__icon"
@@ -599,10 +585,8 @@ if ($_POST) {
                       </div>
                       <div class="pannel">
                         <p>
-                          Sinh viên sẽ được đào tạo tại Học viện ở Việt Nam với
-                          thời gian 4.5 năm. Chương trình có các cơ hội thực tập
-                          và làm việc thực tế tại các doanh nghiệp và trường đại
-                          học Nhật Bản.
+                          学生はベトナム、当大学で4年半学習します。
+                          当プログラムでは、学生に日本の企業や大学などでのインターンシップ及び体験機会を提供します。
                         </p>
                       </div>
                     </div>
@@ -612,7 +596,7 @@ if ($_POST) {
                 <div class="main-ques__content" id="training">
                   <div class="ques__heading--block">
                     <h2 class="main-ques__heading">
-                      3. Đặc điểm - Lợi thế chương trình
+                      3. プログラムの特徴 - 優位
                     </h2>
                   </div>
                   <div class="faq--block">
@@ -620,7 +604,7 @@ if ($_POST) {
                       <div class="accordion accordion-clicked">
                         <div class="faq__heading">
                           <h3>3.1</h3>
-                          <h3>Chương trình đào tạo có gì nổi bật?</h3>
+                          <h3>当プログラムのカリキュラムの優位は何ですか?</h3>
                         </div>
 
                         <svg
@@ -639,13 +623,11 @@ if ($_POST) {
                       </div>
                       <div class="pannel pannel-open">
                         <p>
-                          Sinh viên tốt nghiệp sẽ có thể vượt qua các kỳ thi
-                          chứng chỉ IT Passport và IT FE. Đây là 2 chứng chỉ đạt
-                          chuẩn cơ bản kỹ sư Công nghệ thông tin (CNTT) của Nhật
-                          Bản. Sở hữu chứng chỉ này sẽ có rất nhiều ưu điểm giúp
-                          cho SV có thể cộng điểm khi ứng tuyển vào các công ty
-                          CNTT, đặc biệt là các công ty CNTT của Nhật, hay cộng
-                          điểm khi xin visa Kodo/ visa vĩnh trú tại Nhật.
+                          卒業生はITパスポート或いはIT
+                          FE認定試験に受験できます。
+                          この2つは日本の情報技術（IT）分野の基準認定です。
+                          認定試験に合格する方は、IT企業、特に日系IT企業に応募する際の加点や、日本の就労ビザ・
+                          永住ビザ申請の際に加点されるなど、多くのメリットがあります。
                         </p>
                       </div>
                     </div>
@@ -656,10 +638,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>3.2</h3>
-                          <h3>
-                            Cơ hội tiếp cận với thị trường, doanh nghiệp Nhật
-                            Bản như thế nào?
-                          </h3>
+                          <h3>日本の市場及び日系企業に接する機会は何ですか?</h3>
                         </div>
 
                         <svg
@@ -678,11 +657,8 @@ if ($_POST) {
                       </div>
                       <div class="pannel">
                         <p>
-                          Sinh viên sẽ có cơ hội tham gia chuỗi Workshop cùng
-                          các chuyên gia công nghệ hàng đầu tại các doanh nghiệp
-                          Nhật Bản. Ngoài ra, sinh viên có thể chuyển tiếp sang
-                          học tập tại các trường đối tác của Học viện nếu đáp
-                          ứng được yêu cầu đưa ra từ phía các đơn vị.
+                          当プログラムの学生は、日系企業の技術専門家により開催された各ワークショップに参加する機会があります。
+                          さらに、学生は学習要件を満たしていれば、当大学の提携校に編入することができます。
                         </p>
                       </div>
                     </div>
@@ -693,7 +669,7 @@ if ($_POST) {
                       <div class="accordion">
                         <div class="faq__heading">
                           <h3>3.3</h3>
-                          <h3>Các hoạt động ngoại khoá của chương trình</h3>
+                          <h3>課外活動</h3>
                         </div>
 
                         <svg
@@ -712,11 +688,8 @@ if ($_POST) {
                       </div>
                       <div class="pannel">
                         <p>
-                          Sinh viên sẽ được tham gia các hoạt động ngoại khoá
-                          hàng năm, đặc biệt là các hoạt động trao đổi văn hoá
-                          tại Nhật Bản. Bên cạnh đó, sinh viên cũng có cơ hội
-                          thực tập làm việc thực tế tại các doanh nghiệp và
-                          trường đại học Nhật Bản.
+                          学生は毎年課外活動、特に日本で文化交流活動に参加できます。
+                          さらに、日本の企業や大学などで体験する機会もあります。
                         </p>
                       </div>
                     </div>
@@ -727,7 +700,7 @@ if ($_POST) {
                           <div class="faq__heading">
                             <h3>3.4</h3>
                             <h3>
-                              Cơ hội thực tập tại các doanh nghiệp như thế nào?
+                              企業でのインターンシップ機会はどのようなものですか?
                             </h3>
                           </div>
 
@@ -747,13 +720,9 @@ if ($_POST) {
                         </div>
                         <div class="pannel">
                           <p>
-                            Chương trình sẽ đào tạo thực tế với học kỳ doanh
-                            nghiệp Nhật tại Việt Nam và Nhật Bản. Các doanh
-                            nghiệp sẽ đồng hành cùng các bạn SV để làm các
-                            project, sản phẩm thực tế giúp cho các bạn SV có thể
-                            làm quen với môi trường doanh nghiệp đồng thời có
-                            các sản phẩm riêng biệt để làm tốt cho CV của mình
-                            về sau.
+                            当プログラムでは、学生にベトナムと日本で日系企業コースを実践的に学習されます。
+                            企業は、学生が実際のプロジェクトや製品を作るのに同行し、学生が企業環境に慣れるのを支援すると同時に、
+                            就職する際に履歴書に独自製品として書くことも同行します。
                           </p>
                         </div>
                       </div>
@@ -762,14 +731,14 @@ if ($_POST) {
 
                   <div class="main-ques__content" id="quality">
                     <div class="ques__heading--block">
-                      <h2 class="main-ques__heading">4. Cơ hội việc làm</h2>
+                      <h2 class="main-ques__heading">4. 就職・キャリア</h2>
                     </div>
                     <div class="faq--block">
                       <div class="faq">
                         <div class="accordion accordion-clicked">
                           <div class="faq__heading">
                             <h3>4.1</h3>
-                            <h3>Vị trí công việc đảm nhận sau tốt nghiệp</h3>
+                            <h3>卒業後の役職先p</h3>
                           </div>
 
                           <svg
@@ -788,15 +757,14 @@ if ($_POST) {
                         </div>
                         <div class="pannel pannel-open">
                           <p>
-                            - Chuyên gia lập trình website, ứng dụng di động;
+                            -
+                            ウェブサイト、モバイルアプリのプログラミング専門家；
                             <br />
-                            - Chuyên gia kiểm thử phần mềm, phân tích nghiệp vụ,
-                            phân tích hệ thống;<br />
-                            - Chuyên gia lập trình cơ sở dữ liệu, mạng máy
-                            tinh;<br />
-                            - Chuyên gia quản trị mạng máy tính quản lý, điều
-                            hành trong lĩnh vực Công nghệ thông tin;<br />
-                            - Chuyên gia an ninh mạng, quản lý dữ liệu.
+                            - テスト、業務分析、システム分析の専門家;<br />
+                            -
+                            データベース設計と管理、コンピュータネットワークの専門家;<br />
+                            -コンピュータネットワーク管理者、情報技術分野で運営管理をする専門家;<br />
+                            - サイバーセキュリティの専門家 データ管理。
                           </p>
                         </div>
                       </div>
@@ -806,10 +774,7 @@ if ($_POST) {
                           <div class="accordion">
                             <div class="faq__heading">
                               <h3>4.2</h3>
-                              <h3>
-                                Mức lương sinh viên có thể đạt được sau tốt
-                                nghiệp?
-                              </h3>
+                              <h3>学生は卒業後の給料?</h3>
                             </div>
 
                             <svg
@@ -828,9 +793,8 @@ if ($_POST) {
                           </div>
                           <div class="pannel">
                             <p>
-                              Mức lương sau khi tốt nghiệp lên đến >500 triệu
-                              VNĐ/năm. Ngoài ra SV gần như được cam kết việc làm
-                              sau khi tốt nghiệp Chương trình KS CNTT Việt Nhật.
+                              卒業後の給与は年間5億VND以上得られます。
+                              越日情報技術プログラムを卒業した学生は、ほぼ就職できます。
                             </p>
                           </div>
                         </div>
@@ -847,52 +811,52 @@ if ($_POST) {
       <div class="form">
         <div class="main-content">
           <div class="form-content">
-            <h2 class="form__heading">Cho chúng tôi biết thắc mắc của bạn</h2>
+            <h2 class="form__heading">ご不明な点、ご質問がございませんか</h2>
             <form class="form__js" id="infoForm">
               <div class="form-info">
                 <div class="input-box">
-                  <label for="name">Họ và tên <span>*</span></label> <br />
+                  <label for="name">氏名 <span>*</span></label> <br />
                   <input
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="Nhập họ và tên của bạn"
+                    placeholder="氏名記入"
                     required
                   />
                 </div>
 
                 <div class="grouped-form">
                   <div class="input-box">
-                    <label for="email">Email</label> <br />
+                    <label for="email">Eメール</label> <br />
                     <input
                       type="text"
                       id="email"
                       name="email"
-                      placeholder="Nhập email của bạn"
+                      placeholder="メールアドレス"
                       required
                     />
                   </div>
 
                   <div class="input-box">
-                    <label for="phone">Số điện thoại <span>*</span></label>
+                    <label for="phone">電話番号 <span>*</span></label>
                     <br />
                     <input
                       type="text"
                       id="phone"
                       name="phone"
-                      placeholder="Nhập số điện thoại của bạn"
+                      placeholder="電話番号記入"
                       required
                     />
                   </div>
                 </div>
 
                 <div class="input-box">
-                  <label for="content">Nội dung <span>*</span></label> <br />
+                  <label for="content">内容 <span>*</span></label> <br />
                   <input
                     type="text"
                     id="content"
                     name="content"
-                    placeholder="Nhập nội dung câu hỏi của bạn"
+                    placeholder="問い合わせ内容記入"
                     required
                   />
                 </div>
@@ -904,7 +868,7 @@ if ($_POST) {
                   name="action"
                   value="Submit Info"
                 >
-                  <p>Gửi câu hỏi</p>
+                  <p>送信</p>
                   <img src="./assets/img/arrow-right.svg" alt="" />
                 </button>
               </div>
@@ -919,16 +883,16 @@ if ($_POST) {
                   alt=""
                   class="popup__img"
                 />
-                <h2 class="popup__heading">Đăng ký nhận tư vấn thành công</h2>
+                <h2 class="popup__heading">
+                  入試に関する相談申込を完了しました。
+                </h2>
                 <p class="popup__desc">
-                  Vui lòng để ý điện thoại. Trung tâm Đào tạo Quốc tế sẽ sớm
-                  liên hệ lại qua số điện thoại bạn cung cấp để tư vấn kĩ hơn về
-                  chương trình. Nếu bạn có câu hỏi gì có thể liên hệ với chúng
-                  tôi qua:
-                  <br />Email: <span>cie@ptit.edu.vn</span> <br />Hotline:
+                  国際教育センターは、お客様が提供された電話番号でより連絡いたします。
+                  また、何かご不明な点や質問がありましたら、遠慮なくご連絡ください。
+                  <br />Eメール: <span>cie@ptit.edu.vn</span> <br />Hotline:
                   <span>088 616 0606</span>
                 </p>
-                <button class="popup__btn close-btn">Đã hiểu</button>
+                <button class="popup__btn close-btn">理解しました。</button>
               </div>
             </section>
           </div>
@@ -966,13 +930,13 @@ if ($_POST) {
                     line-height: 21.86px;
                   "
                 >
-                  Học viện Công nghệ Bưu chính Viễn thông
+                  郵政通信技術大学
                 </h3>
-                <h3>Trung tâm Đào tạo Quốc tế</h3>
+                <h3>国際教育センター</h3>
               </div>
             </div>
             <div class="footer__section">
-              <p class="title">Liên kết nhanh</p>
+              <p class="title">外部連携</p>
               <ul>
                 <li>
                   <img
@@ -981,7 +945,7 @@ if ($_POST) {
                     class="show-on-mobile"
                   />
                   <a href="https://portal.dtqt.edu.vn/" target="_blank"
-                    >Cổng thông tin Học viện CNBCVT</a
+                    >郵政通信技術大学ポータル</a
                   >
                 </li>
                 <li>
@@ -991,7 +955,7 @@ if ($_POST) {
                     class="show-on-mobile"
                   />
                   <a href="https://cie.ptit.edu.vn/" target="_blank"
-                    >Trang chủ Trung tâm ĐTQT</a
+                    >国際教育センターホームページ</a
                   >
                 </li>
                 <li>
@@ -1001,7 +965,7 @@ if ($_POST) {
                     class="show-on-mobile"
                   />
                   <a href="https://daotao.ptit.edu.vn/" target="_blank"
-                    >Quản lý đào tạo</a
+                    >教育管理</a
                   >
                 </li>
                 <li>
@@ -1011,7 +975,7 @@ if ($_POST) {
                     class="show-on-mobile"
                   />
                   <a href="https://tuyensinh.dtqt.edu.vn/" target="_blank"
-                    >Cổng thông tin tuyển sinh</a
+                    >入試ポータル</a
                   >
                 </li>
               </ul>
@@ -1030,21 +994,19 @@ if ($_POST) {
               </div>
             </div>
             <div class="footer__section">
-              <p class="title">Bạn cần giúp đỡ?</p>
+              <p class="title">お手伝いが必要ですか?</p>
               <p class="address">
-                <img src="./assets/img/location.svg" alt="địa chỉ" /> Địa chỉ
+                <img src="./assets/img/location.svg" alt="địa chỉ" /> 住所
               </p>
               <p class="address1">
-                Tầng 5, Tòa nhà A1<br />96A Trần Phú, Quận Hà Đông, Hà Nội
+                ５階、A1ビル<br />96A Trần Phú, Quận Hà Đông, Hà Nội
               </p>
               <p class="address">
-                <img src="./assets/img/call.svg" alt="địa chỉ" /> Liên lạc trực
-                tiếp
+                <img src="./assets/img/call.svg" alt="địa chỉ" /> 直接連絡
               </p>
               <p class="address1">088.616.0606</p>
               <p class="address">
-                <img src="./assets/img/sms.svg" alt="địa chỉ" /> Hỗ trợ qua hòm
-                thư
+                <img src="./assets/img/sms.svg" alt="địa chỉ" /> Eメール対応
               </p>
               <!-- <p class="address1">cie@ptit.edu.vn</p> -->
               <p
@@ -1057,7 +1019,7 @@ if ($_POST) {
               </p>
             </div>
             <div class="footer__section">
-              <p class="title">Nhận thông tin mới nhất</p>
+              <p class="title">最新情報入手</p>
               <form id="emailForm">
                 <div class="input-group">
                   <!-- <i class="fas fa-envelope"></i> -->
@@ -1065,7 +1027,7 @@ if ($_POST) {
                   <input
                     type="email"
                     name="user_email"
-                    placeholder="Email của bạn"
+                    placeholder="メールアドレス"
                     required
                   />
                 </div>
@@ -1076,7 +1038,7 @@ if ($_POST) {
                     value="Submit Email"
                     class="hide-on-mobile"
                   >
-                    <p class="hide-on-mobile">Đăng ký ngay</p>
+                    <p class="hide-on-mobile">すぐ登録</p>
                     <svg
                       width="24"
                       height="24"
