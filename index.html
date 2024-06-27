@@ -1048,6 +1048,7 @@ if ($_POST) {
                   <img src="./assets/img/sms1.png" alt="địa chỉ" />
                   <input
                     type="email"
+                    id="user_email"
                     name="user_email"
                     placeholder="メールアドレス"
                     required
@@ -1056,9 +1057,11 @@ if ($_POST) {
                 <div class="form__submit show-email">
                   <button
                     type="submit"
+                    id="submitBtn"
                     name="action"
                     value="Submit Email"
                     class="hide-on-mobile"
+                    disabled
                   >
                     <p class="hide-on-mobile">すぐ登録</p>
                     <svg
@@ -1078,6 +1081,9 @@ if ($_POST) {
                   </button>
                 </div>
               </form>
+
+              <span id="emailHelp" class="help-text"></span>
+
               <!-- <p class="address2">
                 <img src="./assets/img/hand.png" alt="mũi tên" /> Tất cả thông
                 tin bạn cung cấp được cam kết bảo mật
